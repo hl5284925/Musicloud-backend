@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.Scanner;
 
 @Service
 public class SongService {
@@ -34,7 +33,6 @@ public class SongService {
         }
     }
 
-
     public Song createSong(Song songObject) {
 
         Song song = songRepository.findByTitle(songObject.getTitle());
@@ -47,7 +45,6 @@ public class SongService {
     }
 
     public Song updateSong(Long id, Song songObject) {
-
         Optional<Song> song = songRepository.findById(id);
 
         if (song.isPresent()) {
