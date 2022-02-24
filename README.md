@@ -1,4 +1,4 @@
-# Music-backend
+# Musicloud-backend
 
 
 This is a music app where you can create a song, get a song, update a song, and delete a song. You can also get all songs in the database.
