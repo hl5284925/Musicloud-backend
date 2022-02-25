@@ -15,19 +15,14 @@ public class SongController {
 
     private SongService songService;
 
-
-
     @Autowired
     public void setSongService(SongService songService) {
         this.songService = songService;
     }
 
-
-
     @GetMapping("/test/")
     public String getTest(){return "The test is working!";}
-
-
+    
     @GetMapping("/songs/")
     public List<Song> getAllSongs() {
         return songService.getAllSongs();
