@@ -22,7 +22,7 @@ public class SongController {
 
     @GetMapping("/test/")
     public String getTest(){return "The test is working!";}
-    
+
     @GetMapping("/songs/")
     public List<Song> getAllSongs() {
         return songService.getAllSongs();
