@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Musicloud-BackEnd" target="11" />
+      <module name="Musicloud-BackEnd" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
