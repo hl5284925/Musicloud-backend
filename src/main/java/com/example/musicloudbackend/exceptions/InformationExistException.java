@@ -10,5 +10,4 @@ public class InformationExistException extends RuntimeException{
         super(message);
     }
 
-
 }

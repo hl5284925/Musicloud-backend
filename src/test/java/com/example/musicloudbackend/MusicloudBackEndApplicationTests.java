@@ -9,5 +9,4 @@ class MusicloudBackEndApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }

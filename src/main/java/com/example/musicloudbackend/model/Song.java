@@ -1,6 +1,5 @@
 package com.example.musicloudbackend.model;
 
-
 import javax.persistence.*;
 import java.util.Date;
 
